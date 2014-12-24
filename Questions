@@ -1,0 +1,84 @@
+1.       Different types of associations
+
+2.       How to implement HABTM
+
+3.       Difference between HABTM and Has Many through
+
+4.       Abstraction, Inheritance and Encapsulation
+
+5.       How we use a ‘send’ method to call a method
+
+6.       How we use ‘constantize’ method to call a method.
+
+
+
+
+Basic Ruby:
+
+
+
+1.       String Interpolation, What is a module ? Class? Difference ?
+
+2.       Difference between a module and a class?
+
+3.       How do you call a class method when you have the name of
+class and name of method as strings?
+
+4.       How do you declare a class method in ruby?
+
+5.       Difference between a proc, lambda and a block?
+
+6.       When is a db call method when u add a scope and loop in a view?
+
+7.       How do you write a where clause which takes an array and
+checks for an attribute to be present in that array.
+
+8.       Named scope?
+
+9.       What is eager loading, how do we achieve it?
+
+10.   If a student model has one Address(model), We are looping
+through students on index view, how many queries will it make?
+
+11.   What is returned when we apply any scope/where on a model? (Ex.
+Student.active where active is name of scope)
+
+
+
+
+
+Intermediate Ruby:
+
+1.       In how many ways can we include a module into a Model and
+what will be the difference between those two?
+
+
+
+Jquery:
+
+2.       How do you insert a link into a div using jquery?
+
+3.       Difference between bind, live, chaining?
+
+4.       Things we pass to an AJAX call
+
+5.       How do you make an ajax call to a rails action ?  ( Say, I
+need to refresh a table contianing list of names using an AJAX, I will
+filter based upon some field date )
+
+6.       Difference between "this" and $(this)
+
+7.       Difference between remove() and detach()
+
+8.       How do you remove a element from a DOM?
+
+9.       When do you go for GET and when do you go for POST?
+
+
+
+Scenario Based Questions
+
+1.       What are the things that happen when a user goes to index
+page of say students which list all students.
+
+2.       How do we add a search bar on an index page?
