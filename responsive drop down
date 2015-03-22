@@ -2,3 +2,18 @@
 
 http://www.falsepositives.com/index.php/2010/05/28/building-a-casscading-drop-down-selection-list-for-ruby-on-rails-with-jquery-ajax/
 http://stackoverflow.com/questions/740195/adding-options-to-a-select-using-jquery-javascript
+
+=content_for :javascript do
+  :javascript
+    $('#customer_zone_id').on('change',function(){
+      el = $('#customer_area');
+      el.empty();
+      areas = gon.zone_areas[$(this).val()]; 
+      el.append($('<option>',{value: '',text: ''}));
+      $.each(areas, function (i, item) {
+        el.append($('<option>', { 
+          value: item.id,
+          text : item.name 
+        }));
+      });
+    });
